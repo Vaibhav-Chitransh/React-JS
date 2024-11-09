@@ -1,0 +1,42 @@
+.card {
+    box-shadow: 5px 5px 10px rgb(153, 151, 151);
+    width: 80%;
+}
+
+img {
+    width: 100%;
+}
+
+.card-contents {
+    padding: 0.8rem 0.3rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    /* background-color: rgb(11, 104, 161); */
+    font-size: larger;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.4rem;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.super-hit {
+    background-color: rgb(100, 225, 100);
+    padding: 0.1rem 0.3rem;
+    border-radius: 6px;
+}
+
+.average {
+    background-color: rgb(220, 220, 22);
+    padding: 0.1rem 0.3rem;
+    border-radius: 6px;
+}
