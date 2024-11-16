@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-switch {
+    height: 6rem;
+    width: 12rem;
+    background-color: rgb(225, 221, 221);
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.switch-state {
+    margin: auto 0.5rem;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.3rem solid white;
+    box-shadow: 0px 0px 40px rgb(246, 228, 228);
+    transition: transform 0.3s linear, background-color 0.3s linear;
+}
+
+.switch {
+    font-size: 2rem;
+}
+
+.ON {
+    background-color: rgb(13, 201, 13);
+    transform: translateX(6rem);
+}
+
+.OFF {
+    background-color: rgb(255, 100, 100);
+    transform: translateX(0rem);
+}
